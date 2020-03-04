@@ -21,7 +21,7 @@ void ArrayImage::Clear()
     rows = 0;
     whiteMaxValue = -1;
 
-    delete array;
+    delete []array;
     array = nullptr;
 }
 

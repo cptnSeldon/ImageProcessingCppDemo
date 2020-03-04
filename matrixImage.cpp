@@ -29,7 +29,7 @@ void MatrixImage::Clear()
         delete matrix[i];
         matrix[i] = nullptr;
     }
-    delete matrix;
+    delete []matrix;
     matrix = nullptr;
 
     columns = 0;
